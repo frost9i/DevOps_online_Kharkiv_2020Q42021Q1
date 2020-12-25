@@ -39,6 +39,9 @@ git commit -a -m "Committing empty index.html"
 ```
 git br images  
 git co images  
+**images copied to folder**  
+git add *jpg  
+git commit -a -m "Branch: images. Images added."
 
 ```
 
