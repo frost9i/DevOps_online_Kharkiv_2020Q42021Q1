@@ -12,6 +12,15 @@ External group
 **Contact info:**  
 *e-mail:* `frost9i@ukr.net`  
   
-
-
-
+###
+#### Task list:
+- [x] [Task 1.1](empty)  
+- [ ] [Task 2.1](empty)  
+- [ ] [Task 2.2](empty)  
+- [ ] [Task 3.1](empty)  
+- [ ] [Task x.x](empty)  
+- [ ] [Task x.x](empty)  
+- [ ] [Task x.x](empty)  
+- [ ] [Task x.x](empty)  
+- [ ] [Task x.x](empty)  
+  
