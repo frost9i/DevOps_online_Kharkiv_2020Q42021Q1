@@ -1,6 +1,26 @@
 # Task 1.1  
 ## DevOps intro to GitHub  
   
+## DevOps is...  
+a specific *mindset*.  
+a *profession*, that is not suited for everyone.  
+DevOps is like a **samurai**:  
+  - it's *NOT* about reaching destination  
+  + it's *about* following the path.  
+"Seven times down, eight times up."  
+  
+  
+**please check Task1.1_GIT.txt for details**  
+  
+## Image for reference  
+```
+git reflog  
+```
+  
+![git reflog](https://raw.githubusercontent.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/main/m1/task1.1/screenshots/git_reflog.jpg)  
+  
+  
+  
 ##Git Bash commands used:  
 **Step 2: Account setup:**  
 ```
@@ -46,11 +66,10 @@ git commit index.html -m "Image <src> added to file."
 ```
 ...
 **and so on..**  
-**please check Task1.1_GIT.txt for details**  
+  
   
 
-
-
-Link [link](url)  
-![image](url.jpg)  
+Navigation:  
+[Next: Task2.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/tree/main/m2/task2.1)  
+  
 
