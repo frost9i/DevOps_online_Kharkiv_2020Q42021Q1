@@ -7,9 +7,9 @@ Private repository for EPAM University
 External group  
 
 
-Linked-in profile:  
+**Linked-in profile:**  
 ..  
   
-Contact info:  
+**Contact info:**  
 ..  
 
