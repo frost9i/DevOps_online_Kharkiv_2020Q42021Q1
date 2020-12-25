@@ -1,2 +1,15 @@
 # DevOps_online_Kharkiv_2020Q42021Q1
-test is it readme.md
+Sergii Moroz
+Kharkiv, UA
+
+Private repository for EPAM University
+[OnlineUA] DevOps Winter Program
+External group
+
+
+Linked-in profile:
+..
+
+Contact info:
+..
+
