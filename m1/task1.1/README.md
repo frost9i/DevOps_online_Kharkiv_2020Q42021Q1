@@ -1,5 +1,5 @@
-#Task 1.1  
-##DevOps intro to GitHub  
+# Task 1.1  
+## DevOps intro to GitHub  
   
 ##Git Bash commands used:  
 **Step 2: Account setup:**  
@@ -44,6 +44,10 @@ git add *jpg
 git commit -a -m "Branch: images. Images added."  
 git commit index.html -m "Image <src> added to file."  
 ```
+...
+**and so on..**  
+**please check Task1.1_GIT.txt for details**  
+  
 
 
 
