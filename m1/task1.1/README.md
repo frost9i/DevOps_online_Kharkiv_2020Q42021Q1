@@ -41,9 +41,11 @@ git br images
 git co images  
 **images copied to folder**  
 git add *jpg  
-git commit -a -m "Branch: images. Images added."
-
+git commit -a -m "Branch: images. Images added."  
+git commit index.html -m "Image <src> added to file."  
 ```
+
+
 
 Link [link](url)  
 ![image](url.jpg)  
