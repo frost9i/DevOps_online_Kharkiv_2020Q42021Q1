@@ -1,23 +1,21 @@
-# Task 1.1  
-## DevOps intro to GitHub  
+# Task 1.1 - DevOps intro to GitHub  
   
 ## DevOps is...  
 a specific *mindset*.  
 a *profession*, that is not suited for everyone.  
 DevOps is like a **samurai**:  
-  - it's *NOT* about reaching destination  
-  + it's *about* following the path.  
-"Seven times down, eight times up."  
+- it's *NOT* about reaching destination  
+- it's *about* following the path.  
+> "Seven times down, eight times up."  
   
-  
-**please check Task1.1_GIT.txt for details**  
-  
-## Image for reference  
+***
+## Working with GIT  
+*please check Task1.1_GIT.txt for details*  
 ```
 git reflog  
 ```
-  
-![git reflog](https://raw.githubusercontent.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/main/m1/task1.1/screenshots/git_reflog.jpg)  
+**Image for reference**  
+![git reflog](screenshots/git_reflog.jpg)  
   
   
   
@@ -68,8 +66,8 @@ git commit index.html -m "Image <src> added to file."
 **and so on..**  
   
   
-
+***
 Navigation:  
-[Next: Task2.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/tree/main/m2/task2.1)  
+*[Next: Task2.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/tree/main/m2/task2.1)*  
   
 
