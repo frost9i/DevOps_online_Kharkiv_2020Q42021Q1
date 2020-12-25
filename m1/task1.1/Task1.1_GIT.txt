@@ -1,0 +1,31 @@
+$ git reflog
+ed96ae1 (HEAD -> main, origin/main, origin/develop, origin/HEAD, develop) HEAD@{0
+}: merge develop: Fast-forward
+3aa9660 HEAD@{1}: checkout: moving from develop to main
+ed96ae1 (HEAD -> main, origin/main, origin/develop, origin/HEAD, develop) HEAD@{2
+}: merge images: Merge made by the 'recursive' strategy.
+b8f80d4 (origin/styles, styles) HEAD@{3}: merge styles: Fast-forward
+75d6aac HEAD@{4}: checkout: moving from styles to develop
+b8f80d4 (origin/styles, styles) HEAD@{5}: commit: style.css edited
+825583a HEAD@{6}: checkout: moving from images to styles
+221297f (origin/images, images) HEAD@{7}: checkout: moving from develop to images
+75d6aac HEAD@{8}: checkout: moving from styles to develop
+825583a HEAD@{9}: commit: Committing styles.css
+75d6aac HEAD@{10}: checkout: moving from develop to styles
+75d6aac HEAD@{11}: checkout: moving from develop to develop
+75d6aac HEAD@{12}: checkout: moving from styles to develop
+75d6aac HEAD@{13}: checkout: moving from develop to styles
+75d6aac HEAD@{14}: checkout: moving from images to develop
+221297f (origin/images, images) HEAD@{15}: commit: committing readme
+74f653b HEAD@{16}: commit: index.html src to images added
+e97b048 HEAD@{17}: commit: Branch: images. Images added.
+75d6aac HEAD@{18}: checkout: moving from develop to images
+75d6aac HEAD@{19}: commit: Task1.1 - Step 12 - Commiting empty "index.html"
+3aa9660 HEAD@{20}: checkout: moving from main to develop
+3aa9660 HEAD@{21}: commit: status update
+8fc6584 HEAD@{22}: commit: README.md added to all Tasks. Line breake reworked.
+ce705a5 HEAD@{23}: commit: Some cleanup and restructure
+4d43561 HEAD@{24}: commit: file deleted
+d59edc0 HEAD@{25}: commit: first commit
+ec1dcb4 HEAD@{26}: clone: from github.com:frost9i/DevOps_online_Kharkiv_2020Q4202
+1Q1.git
