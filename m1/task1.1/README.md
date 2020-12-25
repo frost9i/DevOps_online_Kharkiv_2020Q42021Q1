@@ -1,10 +1,10 @@
 # Task 1.1 - DevOps intro to GitHub  
   
-## DevOps is...  
+### DevOps is...  
 a specific *mindset*.  
 a *profession*, that is not suited for everyone.  
-DevOps is like a **samurai**:  
-- it's *NOT* about reaching destination  
+DevOps is like a **samurai** - has his own way  
+- it's *NOT* about reaching destination,  
 - it's *about* following the path.  
 > "Seven times down, eight times up."  
   
@@ -17,9 +17,8 @@ git reflog
 **Image for reference**  
 ![git reflog](screenshots/git_reflog.jpg)  
   
-  
-  
-##Git Bash commands used:  
+***
+## Git Bash commands used:  
 **Step 2: Account setup:**  
 ```
 git config --global user.name "frost9i"  
