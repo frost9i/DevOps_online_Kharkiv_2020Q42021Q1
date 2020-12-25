@@ -1,2 +1,2 @@
-vim editor
-text editing
+Task 1.1  
+DevOps intro to GitHub
