@@ -13,7 +13,7 @@ External group
 *e-mail:* `frost9i@ukr.net`  
   
 ###
-#### Task list:
+#### :+1: Task list:
 - [x] [Task 1.1](empty)  
 - [ ] [Task 2.1](empty)  
 - [ ] [Task 2.2](empty)  
