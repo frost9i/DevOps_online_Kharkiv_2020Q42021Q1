@@ -10,7 +10,7 @@ DevOps is like a **samurai** - has his own way
   
 ***
 ## Working with GIT  
-*please check Task1.1_GIT.txt for details*  
+*please check **[Task1.1_GIT.txt](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/Task1.1_GIT.txt)** for details*  
 ```
 git reflog  
 ```
