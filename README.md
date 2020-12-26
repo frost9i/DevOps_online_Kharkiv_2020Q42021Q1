@@ -15,7 +15,7 @@ External group
 ###
 #### :+1: Task list:
 - [x] [Task 1.1](empty)  
-- [ ] [Task 2.1](empty)  
+- [x] [Task 2.1](empty)  
 - [ ] [Task 2.2](empty)  
 - [ ] [Task 3.1](empty)  
 - [ ] [Task x.x](empty)  

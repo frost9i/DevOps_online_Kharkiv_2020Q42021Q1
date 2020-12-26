@@ -1,4 +1,4 @@
-# Task 2.1 - Virtualisation. VirtualBox, Vagrant
+# Task 2.1 - Virtualization. VirtualBox, Vagrant
   
 ***  
   
@@ -27,15 +27,15 @@ Most popular *Cloud service* providers use Type 1 hypervisors.
 ### Part 2. Working with VirtualBox  
   
 Taking snapshots  
-![Snapshots](/screenshots/img3.jpg)  
+![Snapshots](screenshots/img3.jpg)  
   
 #### Possible connections table  
 | p2p 	| Host 	| VM1 	| VM2 	| WAN 	|
 |-	|-	|-	|-	|-	|
-| **Host** 	| + 	| :heavy_check_mark: 	| :heavy_check_mark: 	| :heavy_check_mark: 	|
-| **VM1** 	| \* 	| + 	| :heavy_check_mark: 	| :heavy_check_mark: 	|
-| **VM2** 	| \* 	| :heavy_check_mark: 	| + 	| :heavy_check_mark: 	|
-| **WAN** 	| :heavy_check_mark: 	| \* 	| \* 	| + 	|
+| **Host** 	| + 	| \* 	| \* 	| :heavy_check_mark: 	|
+| **VM1** 	| :heavy_check_mark: 	| + 	| \* 	| :heavy_check_mark: 	|
+| **VM2** 	| :heavy_check_mark: 	| \* 	| + 	| :heavy_check_mark: 	|
+| **WAN** 	| \* 	| \* 	| \* 	| + 	|
   
 \* *is possible with additional port forwarding settings*  
   
@@ -52,6 +52,9 @@ VBoxManage showvminfo <name>
 ***  
 ### Part 3. Vagrant  
   
+Allows you to add working OS environment on top of any other OS. Configuration files can be deployed to the cloud. Basically a headless machine controlled with CLI and pre-written scripts that can use one of mainstream *providers* like Virtualbox, Hyper-V, Docker and WMware.
+  
+Vagrant installation path added to system variables  
 ![Vagrant path](screenshots/img4.jpg)  
   
 login: vagrant | password: vagrant
@@ -65,7 +68,7 @@ Vagrant running in background
 ![Vagrant running in background](screenshots/img6.jpg)  
   
 
-###
+***  
 **Navigation:**  
 [Previous: Task 1.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/README.md) | [Next: Task 2.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m2/task2.2/README.md)  
   
