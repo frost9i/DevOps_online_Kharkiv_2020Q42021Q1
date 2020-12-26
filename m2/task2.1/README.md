@@ -1,6 +1,8 @@
 # Task 2.1 - Virtualisation. VirtualBox, Vagrant
   
-### Part 1. Hypervisors  
+***  
+  
+## Part 1. Hypervisors  
 #### 1. Hypervisors  
 *Are divided into types (1, 2)*  
 **Type 1** most popular hypervisors:  
@@ -20,46 +22,47 @@ Most popular *Cloud service* providers use Type 1 hypervisors.
   
 **Type 2** Hypervisor is hosted inside of an OS of a physical host machine. Sometimes type 2 hypervisors are referred to as *hosted hypervisors*. Can be installed onto existing system without much changes and *are suitable for the environments with low performance demands*. Are easier to maintain, since snapshots can be created instantly.  
   
-###  
+***  
+  
 ### Part 2. Working with VirtualBox  
   
 Taking snapshots  
 ![Snapshots](/screenshots/img3.jpg)  
   
-##### Possible connections table  
+#### Possible connections table  
 | p2p 	| Host 	| VM1 	| VM2 	| WAN 	|
 |-	|-	|-	|-	|-	|
 | **Host** 	| + 	| :heavy_check_mark: 	| :heavy_check_mark: 	| :heavy_check_mark: 	|
-| **VM1** 	| [ ]\* 	| + 	| :heavy_check_mark: 	| :heavy_check_mark: 	|
-| **VM2** 	| [ ]\* 	| :heavy_check_mark: 	| + 	| :heavy_check_mark: 	|
-| **WAN** 	| :heavy_check_mark: 	| [ ]\* 	| [ ]\* 	| + 	|
+| **VM1** 	| \* 	| + 	| :heavy_check_mark: 	| :heavy_check_mark: 	|
+| **VM2** 	| \* 	| :heavy_check_mark: 	| + 	| :heavy_check_mark: 	|
+| **WAN** 	| :heavy_check_mark: 	| \* 	| \* 	| + 	|
   
 \* *is possible with additional port forwarding settings*  
   
 ```
 VBoxManage list vms  
 ```
-![VBoxManage list vms](/screenshots/img1.jpg)  
+![VBoxManage list vms](screenshots/img1.jpg)  
   
 ```
 VBoxManage showvminfo <name>  
 ```
-![VBoxManage showvminfo](/screenshots/img2.jpg)  
+![VBoxManage showvminfo](screenshots/img2.jpg)  
   
-###  
+***  
 ### Part 3. Vagrant  
   
-![Vagrant path](/screenshots/img4.jpg)  
+![Vagrant path](screenshots/img4.jpg)  
   
 login: vagrant | password: vagrant
 ```
 date  
 ```
-![Vagrant date](/screenshots/img5.jpg)  
+![Vagrant date](screenshots/img5.jpg)  
   
   
 Vagrant running in background  
-![Vagrant running in background](/screenshots/img6.jpg)  
+![Vagrant running in background](screenshots/img6.jpg)  
   
 
 ###
