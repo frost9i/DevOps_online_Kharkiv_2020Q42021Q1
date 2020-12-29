@@ -11,22 +11,22 @@ Step-by-step **re:Invent 2020** tutorials were explored:
   
 ***  
   
-#### EC2 Instance was created and is currently up and running:  
+### EC2 Instance was created and is currently up and running  
   
 ![htop](screenshots/htop.png)  
   
-##### Security groups are configured to allow external ICMP packets:  
+#### Security groups are configured to allow external ICMP packets:  
   
 ![ping](screenshots/ping.png)  
   
-##### Some errors were encountered during setup process  
+#### Some errors were encountered during setup process
 but disappeared too quickly to cause any inconveniences.  
   
 ![errors](screenshots/error_crop.png)  
   
 ***
   
-#### s3 bucket static web page  
+### S3 bucket static web page
 http://frost9i.s3.1.s3-website.eu-north-1.amazonaws.com  
   
   
