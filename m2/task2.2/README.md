@@ -3,11 +3,11 @@
 ***  
   
 Step-by-step **re:Invent 2020** tutorials were explored:  
-- Introduction to Amazon EC2
-- Automating AWS Services with Scripting and the AWS CLI  
-- Introduction to AWS Lambda  
-- Introduction to Elastic Block Store (EBS)  
-- Hosting WordPress Using Amazon S3  
+- Introduction to Amazon EC2,
+- Automating AWS Services with Scripting and the AWS CLI,  
+- Introduction to AWS Lambda,  
+- Introduction to Elastic Block Store (EBS),  
+- Hosting WordPress Using Amazon S3.  
   
 ***  
   
@@ -19,7 +19,9 @@ Step-by-step **re:Invent 2020** tutorials were explored:
   
 ![ping](screenshots/ping.png)  
   
-#### Some errors were encountered during setup process
+***
+  
+### Some errors were encountered during setup process
 but disappeared too quickly to cause any inconveniences.  
   
 ![errors](screenshots/error_crop.png)  
