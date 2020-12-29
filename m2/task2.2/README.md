@@ -18,6 +18,7 @@ Step-by-step **re:Invent 2020** tutorials were explored:
 #### Security groups are configured to allow external ICMP packets:  
   
 ![ping](screenshots/ping.png)  
+upd29.12.2020 ip cnaged to: 13.53.104.51  
   
 ***
   
