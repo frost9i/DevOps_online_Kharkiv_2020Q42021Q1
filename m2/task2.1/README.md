@@ -32,10 +32,10 @@ Taking snapshots
 #### Possible connections table  
 | p2p 	| Host 	| VM1 	| VM2 	| WAN 	|
 |-	|-	|-	|-	|-	|
-| **Host** 	| + 	| \* 	| \* 	| :heavy_check_mark: 	|
-| **VM1** 	| :heavy_check_mark: 	| + 	| \* 	| :heavy_check_mark: 	|
-| **VM2** 	| :heavy_check_mark: 	| \* 	| + 	| :heavy_check_mark: 	|
-| **WAN** 	| \* 	| \* 	| \* 	| + 	|
+| **Host** to 	| + 	| \* 	| \* 	| :heavy_check_mark: 	|
+| **VM1** to 	| :heavy_check_mark: 	| + 	| :heavy_check_mark: 	| :heavy_check_mark: 	|
+| **VM2** to 	| :heavy_check_mark: 	| :heavy_check_mark: 	| + 	| :heavy_check_mark: 	|
+| **WAN** to 	| :heavy_check_mark: 	| \* 	| \* 	| + 	|
   
 \* *is possible with additional port forwarding settings*  
   
