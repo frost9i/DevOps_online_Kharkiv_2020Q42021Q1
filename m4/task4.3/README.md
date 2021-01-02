@@ -18,7 +18,7 @@ IP addresses were assigned.
   
 :skull_and_crossbones: RIP (*Routing Information Protocol*) was configured on Router0  
 Using GUI configuration tool.  
-Working configuration was saved and will be available apon reboot.  
+Working configuration was saved and will be available upon reboot.  
 ```sh
 copy running-config startup-config  
 ```
