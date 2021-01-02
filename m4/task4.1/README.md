@@ -35,7 +35,7 @@ This topology uses *switch* instead of hub. Switches incorporate the ability to 
   
 ### Topology 3  
   
-Another topology was built. IP addresses were assigned, gateways set and router ports were turned on. This configuration allows to connect different networks into one cluster, thus expanding coverage and keeping network traffic within limits.  
+Another topology was built. IP addresses were assigned, gateways set and router ports were turned on. This configuration allows to connect different networks into one cluster, thus expanding coverage and keeping network traffic within limits. Also routers allow fast network scalability. And in case there are many routes from one network to another routers can determine the best route to destination. It is possible by having metric characteristics in routing tables.  
   
 ![Router is present](screenshots/4.1.4.png)  
   
