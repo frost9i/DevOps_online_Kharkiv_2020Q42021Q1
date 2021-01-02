@@ -2,11 +2,11 @@
   
 ***
   
-### Part 1  
+## Part 1  
   
 Network topology with two buildings was created.  
 The naming and addressing was done using the location of the workstations.  
-For example :point_left: *Building 1; Floor 1; PC 1* has an IP of *192.168.11.1*.  
+For example :point_right: *Building 1; Floor 1; PC 1* has an IP of *192.168.11.1*.  
 And some more examples in a table:  
   
 | Location 	| IP 	| Network 	| Gateway 	|
@@ -26,10 +26,11 @@ All workstation were configured. Packets are being sent and received :+1:
   
 ***
   
-### Part 2  
+## Part 2  
   
 The following topology was built. Each floor share one network divided into subnets with /29 subnet mask. Giving 8 subnets in total.  
-For example:  
+
+**For example:**  
 Floor 1, Group 1 with 3 workstations belongs to  
 192.168.1.0 network with IP range of 192.168.1.1-192.168.1.6  
 *(192.168.1.7 is used for broadcast).*  
@@ -65,12 +66,12 @@ Topology allows communication between different building floors and uses minimum
   
 ***  
   
-### Part 3  
+## Part 3  
   
 Topology with required constrains was created, featuring 5 workgroups 6 workstations each and using one router with one port.  
   
 Whole network was divided into subnets using subnet mask.  
-Building one: network 10.10.1.0, mask 255.255.255.240 (\/28)
+**Building one**: network 10.10.1.0, mask 255.255.255.240 (\/28)
 with IP range of 10.10.1.1-10.10.1.14.  
 *See the following image for details.*  
   
