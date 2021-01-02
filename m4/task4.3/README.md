@@ -5,22 +5,22 @@
 Required topology was created.  
 IP addresses were assigned.  
   
-Network 192.168.0.0:  
-PC1-PC5: 192.168.0.1-5/24  
-Router if0: 192.168.0.254/24  
+:twisted_rightwards_arrows: Network **192.168.0.0**  
+:desktop_computer: PC1-PC5: 192.168.0.1-5/24  
+:electric_plug: Router if0: 192.168.0.254/24  
   
-Network 192.168.1.0  
-Server: 192.168.1.1/24  
-Router if1: 192.168.1.254/24  
+:twisted_rightwards_arrows: Network **192.168.1.0**  
+:computer: Server: 192.168.1.1/24  
+:electric_plug: Router if1: 192.168.1.254/24  
   
 ![Topology](screenshots/1.1.png)  
   
   
-RIP (Routing Information Protocol) was configured on Router0  
+:skull_and_crossbones: RIP (*Routing Information Protocol*) was configured on Router0  
 Using GUI configuration tool.  
-Configuration was saved.  
-```
-copy runnong-config startup-config  
+Working configuration was saved and will be available apon reboot.  
+```sh
+copy running-config startup-config  
 ```
   
 ![RIP](screenshots/1.2.png)  

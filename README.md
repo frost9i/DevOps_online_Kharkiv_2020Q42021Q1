@@ -20,7 +20,7 @@ External group
 - [ ] [Task 3.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m3/task3.1/README.md)  
 - [x] [Task 4.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.1/README.md)  
 - [x] [Task 4.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.2/README.md)  
-- [ ] [Task 4.3](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.3/README.md)  
+- [x] [Task 4.3](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.3/README.md)  
 - [ ] [Task x.x](empty)  
 - [ ] [Task x.x](empty)  
   
