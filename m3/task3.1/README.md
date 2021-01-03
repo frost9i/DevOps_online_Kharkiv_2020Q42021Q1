@@ -5,7 +5,7 @@
 ## Part 1. - Installing MySQL server on VirtualBox VM  
   
 ```sh
-sudo apt install *mysql-server*  
+sudo apt install mysql-server  
 sudo mysql_secure_installation  
 sudo mysql  
 ```
