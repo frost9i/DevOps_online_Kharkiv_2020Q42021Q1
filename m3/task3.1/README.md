@@ -2,7 +2,7 @@
   
 ***
   
-## Part 1 - Installing MySQL server on VirtualBox VM  
+## Part 1. - Installing MySQL server on VirtualBox VM  
   
 ```sh
 sudo apt install mysql-server  
@@ -24,7 +24,7 @@ mysql -u sql-vm -p
 ```
   
 Creating first user database:  
-```
+```sql
 > CREATE DATABASE epam;  
 > SHOW DATABASES;  
 > USE epam;  
@@ -34,13 +34,13 @@ Creating first user database:
 Creating the first table **tasks** for a database.  
 The structure is going to be as following:  
 | Column name 	| Data type 	| Example value 	|
-| --- 	| --- 	| --- 	|
+| --- 	| ---: 	| :---: 	|
 | number 	| VARCHAR(4) 	| 1.1 	|
 | module 	| CHAR(2) 	| m1 	|
 | completion 	| CHAR(1) 	| y 	|
 | topic 	| VARCHAR(40) 	| Fundamentals 	|
   
-```
+```sql
 > CREATE TABLE tasks (number VARCHAR(4), module CHAR(2), completion CHAR(1), topic VARCHAR(40), link > VARCHAR(120));  
 SHOW TABLES;  
 ```
@@ -50,14 +50,15 @@ Filling in the table:
 > show global variables like 'local_infile';  
 ```
   
-if the result of the above command is:  
-+---------------+-------+  
-| Variable_name | Value |  
-+---------------+-------+  
-| local_infile  | OFF   |  
-+---------------+-------+  
+If the result of the above command is:  
+| ------ 	| --- 	|
+| Variable_name 	| Value 	|
+| ----- 	| --- 	|
+| local_infile 	| OFF 	|
+| ----- 	| ----- 	|  
   
-```
+execute  
+```sql
 > set global local_infile=true;  
 > grant FILE, LOCK TABLES on *.* to 'sql-vm'@'localhost';  
 > exit  
@@ -68,7 +69,7 @@ mysql --local_infile=1 -u sql-vm -p epam
 ```
   
 Inserting prepared data from a file:  
-```
+```sql
 > LOAD DATA LOCAL INFILE '/home/frost9i/mysql/db-tasks.txt' INTO TABLE tasks;  
 > SELECT * FROM tasks;  
 > SELECT module, number, completion, topic FROM tasks WHERE module='m4';  
@@ -76,7 +77,7 @@ Inserting prepared data from a file:
   
 ![WHERE](screenshots/2where.png)  
   
-```
+```sql
 > SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));  
 > SELECT module, number, completion FROM tasks GROUP BY number;  
 ```
@@ -88,7 +89,7 @@ Inserting prepared data from a file:
 ***
   
 Creating another table:  
-```
+```sql
 > CREATE TABLE hosts (name VARCHAR(5), ip VARCHAR(15), mask VARCHAR(15), network VARCHAR(15), malfunction CHAR(1));  
 > INSERT INTO hosts VALUES ('PC1', '192.168.0.1', '255.255.255.0', '192.168.0.0', 'n');  
 > INSERT INTO hosts VALUES ('PC2', '192.168.0.2', '255.255.255.0', '192.168.0.0', 'n');  
@@ -111,7 +112,7 @@ Creating another table:
 **DCL:** GRANT, REVOKE;  
   
   
-```
+```sql
 > USE mysql;  
 > SELECT name FROM help_category;  
 ```
@@ -125,7 +126,7 @@ mysqldump epam hosts > epam_hosts.sql -p -u sql-vm
 cat epam_hosts.sql  
 ```
   
-```
+```sql
 > use epam;  
 > ALTER TABLE hosts DROP COLUMN mask;  
 > SELECT * FROM hosts;  
