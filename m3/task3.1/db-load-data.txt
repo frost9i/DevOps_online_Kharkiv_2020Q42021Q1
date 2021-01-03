@@ -1,0 +1,8 @@
+1.1	m1	y	DevOps intro to GitHub	https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/README.md
+2.1	m2	y	Virtualization. VirtualBox, Vagrant	https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m2/task2.1/README.md
+2.2	m2	y	Virtualization and Cloud Basics	https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m2/task2.2/README.md
+3.1	m3	n	Database administration	https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m3/task3.1/README.md
+4.1	m4	y	Networking fundamentals	https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.1/README.md
+4.2	m4	y	Networking fundamentals	https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.2/README.md
+4.3	m4	y	Networking fundamentals	https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.3/README.md
+4.4	m4	y	Networking fundamentals	https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.4/README.md
