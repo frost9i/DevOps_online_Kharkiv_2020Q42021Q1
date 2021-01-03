@@ -8,6 +8,7 @@ External group
 ***
 
 **[Linked-in profile](https://www.linkedin.com/in/sergii-moroz-0a80bb50/)**  
+**[S3 BUCKET](http://frost9i.s3.1.s3-website.eu-north-1.amazonaws.com/)**  
   
 **Contact info:**  
 *e-mail:* `frost9i@ukr.net`  
