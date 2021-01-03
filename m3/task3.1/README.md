@@ -5,7 +5,7 @@
 ## Part 1. - Installing MySQL server on VirtualBox VM  
   
 ```sh
-sudo apt install mysql-server  
+sudo apt install *mysql-server*  
 sudo mysql_secure_installation  
 sudo mysql  
 ```
@@ -42,7 +42,7 @@ The structure is going to be as following:
   
 ```sql
 > CREATE TABLE tasks (number VARCHAR(4), module CHAR(2), completion CHAR(1), topic VARCHAR(40), link > VARCHAR(120));  
-SHOW TABLES;  
+> SHOW TABLES;  
 ```
   
 Filling in the table:  
@@ -51,16 +51,14 @@ Filling in the table:
 ```
   
 If the result of the above command is:  
-| ------ 	| --- 	|
 | Variable_name 	| Value 	|
 | ----- 	| --- 	|
 | local_infile 	| OFF 	|
-| ----- 	| ----- 	|  
   
 execute  
 ```sql
-> set global local_infile=true;  
-> grant FILE, LOCK TABLES on *.* to 'sql-vm'@'localhost';  
+> SET GLOBAL local_infile=true;  
+> GRANT FILE, LOCK TABLES on *.* to 'sql-vm'@'localhost';  
 > exit  
 ```
   
