@@ -163,14 +163,14 @@ For example:
 *10 reads at 6KB per item* require **20 RCU**  
 ```
 1. 6KB -> 8KB  
-2. 8KB / 4 = 2  
+2. 8 / 4 = 2  
 3. 2 * 10 = 20 RCU  
 ```
-*30 reads at 17KB per item* require **120 RCU**  
+*30 reads at 17KB per item* require **150 RCU**  
 ```
 1. 17KB -> 20KB  
-2. 20KB / 4 = 5  
-3. 4 * 30 = 120 RCU  
+2. 20 / 4 = 5  
+3. 5 * 30 = 150 RCU  
 ```
   
 #### Calculating eventually consistent READ CU  
@@ -184,15 +184,15 @@ For example:
 *50 reads at 9KB per item* require **75 RCU**  
 ```
 1. 9KB -> 12KB  
-2. 12KB / 4 = 3  
-3. 3 * 50 = 150 RCU  
+2. 12 / 4 = 3  
+3. 3 * 50 = 150  
 4. 150 / 2 = 75  
 5. skip
 ```
 *15 reads at 3KB per item* require **8 RCU**  
 ```
 1. 3KB - > 4KB  
-2. 4KB / 4 = 1  
+2. 4 / 4 = 1  
 3. 1 * 15 = 15  
 4. 15 / 2 = 7.5  
 5. 7.5 = ~8
