@@ -70,5 +70,5 @@ Vagrant running in background
 
 ***  
 **Navigation:**  
-[Previous: Task 1.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/README.md) | [Next: Task 2.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m2/task2.2/README.md)  
+*[Previous: Task 1.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/README.md)* | *[Next: Task 2.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m2/task2.2/README.md)* | *[Task list](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1#1-task-list)*  
   

@@ -150,7 +150,7 @@ mysql -u sql_rds -h frost9iepam.chn46rcvikyt.eu-west-3.rds.amazonaws.com -P 3306
   
 ***  
 **Navigation:**  
-[Previous: Task 2.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m2/task2.2/README.md) | [Next: Task 4.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.1/README.md)  
+*[Previous: Task 2.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m2/task2.2/README.md)* | *[Next: Task 4.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.1/README.md)* | *[Task list](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1#1-task-list)*  
   
   
 

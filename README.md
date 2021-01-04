@@ -13,8 +13,9 @@ External group
 **Contact info:**  
 *e-mail:* `frost9i@ukr.net`  
   
-###
-#### :+1: Task list:
+***
+https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1#1-task-list
+### :+1: Task list:
 - [x] [Task 1.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/README.md)  
 - [x] [Task 2.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m2/task2.1/README.md)  
 - [x] [Task 2.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m2/task2.2/README.md)  
@@ -22,6 +23,6 @@ External group
 - [x] [Task 4.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.1/README.md)  
 - [x] [Task 4.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.2/README.md)  
 - [x] [Task 4.3](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.3/README.md)  
-- [ ] [Task 4.4](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.4/README.md) *(optional)*  
+- [x] [Task 4.4](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.4/README.md) *(optional)*  
 - [ ] [Task x.x](empty)  
   

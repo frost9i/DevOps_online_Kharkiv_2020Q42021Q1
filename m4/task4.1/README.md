@@ -43,5 +43,5 @@ Router is able to share a single IP address for the whole network and mask its i
   
 ***  
 **Navigation:**  
-[Previous: Task 3.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m3/task3.1/README.md) | [Next: Task 4.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.2/README.md)  
+*[Previous: Task 3.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m3/task3.1/README.md)* | *[Next: Task 4.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.2/README.md)* | *[Task list](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1#1-task-list)*  
   

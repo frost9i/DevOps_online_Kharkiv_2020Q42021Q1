@@ -67,6 +67,6 @@ git commit index.html -m "Image <src> added to file."
   
 ***
 Navigation:  
-*[Next: Task2.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/tree/main/m2/task2.1)*  
+*[Next: Task2.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/tree/main/m2/task2.1)* | *[Task list](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1#1-task-list)*  
   
 
