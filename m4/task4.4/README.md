@@ -2,13 +2,15 @@
   
 ***
   
-## Part 2. - DNS server setup  
+## DNS server setup  
   
 The following topology was created that includes  
 two networks, each with its own DNS server and a third DNS server in WAN.  
   
 *Too bad Packet Tracer doesn't support DNS forwarding*  
-<span style="color:red">Too bad Packet Tracer doesn't support DNS forwarding*</span>.  
+<span style="color:red;">*Too bad Packet Tracer doesn't support DNS forwarding*</span>.  
+\textcolor{red}{red}  
+text<span style="color:red">cardinals</span> text  
   
 ![Topology](screenshots/1topology.png)  
   
