@@ -4,17 +4,14 @@
   
 ## DNS server setup  
   
-The following topology was created that includes  
+The following topology was created that includes:  
 two networks, each with its own DNS server and a third DNS server in WAN.  
   
 *Too bad Packet Tracer doesn't support DNS forwarding*  
-<span style="color:red;">*Too bad Packet Tracer doesn't support DNS forwarding*</span>.  
-\textcolor{red}{red}  
-text<span style="color:red">cardinals</span> text  
   
 ![Topology](screenshots/1topology.png)  
   
-DHCP service was also enabled on local servers to save time on configuring *static IP* addresses on workstations.  
+DHCP service was also enabled on local servers to save time on configuring **static IP** addresses on workstations.  
   
 ![DHCP](screenshots/dhcp.png)  
   
