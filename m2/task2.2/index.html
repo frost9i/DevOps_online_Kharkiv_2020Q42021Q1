@@ -1,46 +1,114 @@
-<!doctype html>
-<html>
-  <head>
-  <title>S3 Static web page</title>
-  <style>
-html, body { background: #7BB; color: #037; }
-table { width: 510px;} 
-table, th, td {  border: 1px solid black;}
-th, td { padding: 10px; }
-</style>
-  </head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>DevOps online Winter 2021</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 600px; margin: 40px auto 60px; }
+        #pic { float: right; width: 250px; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -1px; border-bottom: 3px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        h3 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 300px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 400px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
+</head>
+
 <body>
-	<table style="background-color:#dae0c5">
-	<tr>
-	<th>
-	<h2>EPAM  DevOps  online  Winter  2020/2021</h2>
-	<br>
-	 <img src="https://s3.eu-north-1.amazonaws.com/frost9i.s3.1/arc1.JPG" alt="Student's image" style="width:250px;border-radius:8px;">
-	<br>
-	
-	</th>
-	</tr>
-	<tr style="text-align:left">
-	<th>
-	<h3>Passed tutorials</h3>
-	<dl>
-	<dt>AWS services list</dt>
-		<dd><a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/HostingWebsiteOnS3Setup.html">Configuring a static website</a></dd>
-		<dd><a href="https://aws.amazon.com/getting-started/hands-on/backup-files-to-amazon-s3/">Store and Retrieve a File</a></dd>
-		<dd><a href="https://aws.amazon.com/getting-started/hands-on/backup-to-s3-cli/?nc1=h_ls">Batch upload files to the cloud</a></dd>
-		<dd><a href="https://aws.amazon.com/getting-started/hands-on/get-a-domain/?nc1=h_ls">Register a Domain Name</a></dd>
-		<dd><a href="https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/?nc1=h_ls">Deploy Docker Containers</a></dd>
-		<br>
-	<dt>re:Invent 2020 training</dt>
-		<dd><a href="">Automating AWS Services with Scripting and the AWS CLI</a></dd>
-		<dd><a href="">AWS Lambda instructions</a></dd>
-		<dd><a href="">Elastic Block Store (EBS)</a></dd>
-		<dd><a href="">Hosting WordPress Using Amazon S3</a></dd>
-		<dd><a href="">Introduction to Amazon EC2</a></dd>
-	</dl>
-	*re:Invent links are no longer available<br>
-	</th>
-	</tr>
-	</table>
+
+    <div id="page-wrap">
+    
+        <img src="images/arc2.png" alt="My photos" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+            <h2>EPAM DevOps online Winter 2020/2021</h2><br />
+            <h1 class="fn">Sergii Moroz</h1>
+            <p>
+                <!-- Cell: <span class="tel">555-666-7777</span><br /> -->
+                Email: <a class="email" href="mailto:frost9i@ukr.net">frost9i@ukr.net</a>
+            </p>
+
+        </div>
+                
+        <div id="objective">
+            <p>I am an outgoing and energetic (ask anybody) <strike>not so</strike> young professional, seeking a career that fits my professional skills, personality, and goals. I can help bring world domination closer for your organization. 
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>AWS basic<br>tutorials<br>passed</dt>
+            <dd>
+                <h3><a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/HostingWebsiteOnS3Setup.html">Configuring a static website</a></h3>
+                <h3><a href="https://aws.amazon.com/getting-started/hands-on/backup-files-to-amazon-s3/">Store and Retrieve a File</a></h3>
+                <h3><a href="https://aws.amazon.com/getting-started/hands-on/backup-to-s3-cli/?nc1=h_ls">Batch upload files to the cloud</a></h3>
+                <h3><a href="https://aws.amazon.com/getting-started/hands-on/get-a-domain/?nc1=h_ls">Register a Domain Name</a></h3>
+                <h3><a href="https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/?nc1=h_ls">Deploy Docker Containers</a></h3>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>re:Invent 2020<br>training<br>passed</dt>
+            <dd>
+        <dd><a href="">Automating AWS Services with Scripting and the AWS CLI</a></dd>
+        <dd><a href="">AWS Lambda instructions</a></dd>
+        <dd><a href="">Elastic Block Store (EBS)</a></dd>
+        <dd><a href="">Hosting WordPress Using Amazon S3</a></dd>
+        <dd><a href="">Introduction to Amazon EC2</a></dd>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Experience</dt>
+            <dd>
+                <h2>Linux administrating <span>Archlinux geek</span></h2>
+                <ul>
+                    <li>BASH scripting</li>
+                    <li><a href="https://www.udemy.com/course/linux-command-line-interface-and-bash-scripting/">Udemy: Linux CLI and BASH Scripting</a></li>
+                    <li>Experience in Installation, configuration, tuning, security, backup, recovery and OS-upgrade on Red Hat Linux (RHEL 6, 7), Fedora, FreeBSD and Ubuntu.</li>
+                </ul>
+                </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Hobbies</dt>
+            <dd>📻 SDR (Software-defined radio).</dd>
+            <dd>🌩️ High voltage arcs.</dd>
+            <dd>🌲 Nature.</dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>References</dt>
+            <dd><h4><a href="index_old.html">Previous static<br>webpage example</a></h4></dd>
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
 </body>
+
 </html>
