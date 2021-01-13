@@ -29,11 +29,22 @@ yum install util-linux-user
 sudo chfn <user>
 finger <user>  
 ```
-![finger execution in terminal](./screenshots/finger.png)  
+![finger execution in terminal](screenshots/finger.png)  
   
-Upon checking information
+Upon checking help information on above mentioned commands `man finger` and `man chfn` were used. Command `finger` has four keys in total that don't really make much difference for the output.  
+`chfn -u` displays help for command options.  
+`chfn -f` changes user full name  
+`-o` office; `-h` home; and so on.
 
-
+```
+sudo chfn -f 'Name Surname' <user>  
+finger <user>
+```
+***
+### `more` vs. `less`  
+  
+  
+ 
   
   
   
