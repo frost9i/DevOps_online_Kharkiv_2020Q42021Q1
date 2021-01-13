@@ -7,8 +7,8 @@ Kharkiv, UA
 External group  
 ***
 
-**[Linked-in profile](https://www.linkedin.com/in/sergii-moroz-0a80bb50/)**  
-**[S3 Static Web Page](http://frost9i.s3.1.s3-website.eu-north-1.amazonaws.com/)**  
+:raising_hand_man: **[Linked-in profile](https://www.linkedin.com/in/sergii-moroz-0a80bb50/)**  
+:page_facing_up: **[S3 Static Web Page](http://frost9i.s3.1.s3-website.eu-north-1.amazonaws.com/)**  
   
 **Contact info:**  
 *e-mail:* `frost9i@ukr.net`  

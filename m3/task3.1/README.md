@@ -152,7 +152,7 @@ mysql -u sql_rds -h frost9iepam.chn46rcvikyt.eu-west-3.rds.amazonaws.com -P 3306
 ## Part 3. - DynamoDB  
   
 Some useful information I found on calculating **capacity units** (CU)  
-for setup upond database creation  
+for setup upon database creation  
   
 #### Calculating strongly consistent READ CU  
 1. Round data up to nearest 4.  
