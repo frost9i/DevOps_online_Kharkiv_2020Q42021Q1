@@ -1,12 +1,12 @@
 ## DevOps_online_Kharkiv_2020Q42021Q1
-**Sergii Moroz**  
-Kharkiv, UA  
-***
 #### Private repository for EPAM University  
 [OnlineUA] DevOps Winter Program  
 External group  
+  
 ***
-
+**Sergii Moroz**  
+Kharkiv, UA  
+  
 :raising_hand_man: **[Linked-in profile](https://www.linkedin.com/in/sergii-moroz-0a80bb50/)**  
 :page_facing_up: **[S3 Static Web Page](http://frost9i.s3.1.s3-website.eu-north-1.amazonaws.com/)**  
   
