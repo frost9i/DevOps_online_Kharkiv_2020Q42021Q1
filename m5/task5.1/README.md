@@ -2,7 +2,7 @@
   
 ***
   
-## Part 1. - #  
+## Part 1.  
   
 Being logged it as `root` user can perform any system commands without using `sudo` modifier.  
 *Root is better not to be used with password authentication.*  
@@ -19,7 +19,7 @@ In the example `&6&` stands for SHA-512 algorithm.
 Command `getent passwd` lists all users in the system. Those with normal access will have shell name at the end of line: `/bin/bash`.  
 Command `lslogins -u` can be used as an alternative.  
 ***
-Changing and checking user personal information.  
+### Checking and changing user personal information.  
 Utility `cnfn` allows to change user information.  
 Program `finger` shows user information when executed.  
 It had to be installed prior usage, because it's not a part of default setup.  
@@ -29,7 +29,7 @@ yum install util-linux-user
 sudo chfn <user>
 finger <user>  
 ```
-![finger execution in terminal](screenshots/finger.png)  
+![finger execution in terminal](./screenshots/finger.png)  
   
 Upon checking help information on above mentioned commands `man finger` and `man chfn` were used. Command `finger` has four keys in total that don't really make much difference for the output.  
 `chfn -u` displays help for command options.  
@@ -42,7 +42,32 @@ finger <user>
 ```
 ***
 ### `more` vs. `less`  
+These two commands work in a similar way, but `less` is *more* preferable nowadays as it includes features `more` lacks. The fastest of two is also `less` as it doesn't load the file all at once, but proceeds gradually, fragment by fragment. Also less has *more* interactivity to it, so it can be used instead of `tail -f` by running it with option `less +F` or pressing `Shift+F` in already running command.  
+Conclusion: `less` is `more` with more features.  
+```
+cat .zshrc | less -20 -e  
+```
+Will show 20 new lines each time when `Enter/Space/PgDn` pressed from `.zshrc` configuration user file and will exit upon reaching \>EOF\<.  
+***
+### Listing `home` directory content  
+![ls vs. ls -a](./screenshots/ls.jpg)  
+When using `ls -lA` it lists all files that are present in the current directory.  
+Example of output:  
+```
+-rwxrw-r-- 1 user group 0 Jan 13 23:52 hostname  
+```
+Where the first symbol will mean a type of file:  
+1. `-` : regular file  
+1. `d` : directory  
+1. `c` : character device file  
+1. `b` : block device file  
+1. `s` : local socket file  
+1. `p` : named pipe  
+1. `l` : symbolic link  
   
+***
+  
+## Part 2.  
   
  
   
