@@ -1,16 +1,17 @@
-## DevOps_online_Kharkiv_2020Q42021Q1
+## DevOps_online_Kharkiv_2020Q42021Q1  
+  
 #### Private repository for EPAM University  
 [OnlineUA] DevOps Winter Program  
 External group  
   
 ***
-**Sergii Moroz**  
+#### Sergii Moroz  
 Kharkiv, UA  
   
 :raising_hand_man: **[Linked-in profile](https://www.linkedin.com/in/sergii-moroz-0a80bb50/)**  
 :page_facing_up: **[S3 Static Web Page](http://frost9i.s3.1.s3-website.eu-north-1.amazonaws.com/)**  
   
-**Contact info:**  
+#### Contact info:  
 *e-mail:* `frost9i@ukr.net`  
   
 ***
@@ -24,6 +25,6 @@ Kharkiv, UA
 - [x] [Task 4.3](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.3/README.md)  
 - [x] [Task 4.4](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m4/task4.4/README.md) *(optional)*  
 - [x] [Task 5.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m5/task5.1/README.md)  
-- [ ] [Task 5.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m5/task5.2/README.md)  
-- [ ] [Task 5.3](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m5/task5.3/README.md)  
+- [x] [Task 5.2](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m5/task5.2/README.md)  
+- [ ] [Task 6.1](https://github.com/frost9i/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m6/task6.1/README.md)  
   
