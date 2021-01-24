@@ -5,9 +5,19 @@
 ## Analyzing `/etc/passwd/` & `/etc/group` system files  
   
 #### `/etc/passwd` file contains the list of all system users and their attributes  
-! screenshot of passwd file when I create test user to show its ID
-The structure of each record is as follows.  
-`:` is used for the separation of fields  
+![etc passwd](screenshot/passwd.png)  
+The structure of each record is as follows. `:` is used for the separation of fields  
+| Field | Description |
+| --- | --- |
+| vmuser | unique <user> name |
+| x | password stored in /etc/shadow indicator |
+| 1001 | unique user ID |
+| 1001 | corresponding group ID |
+| ` ` | comment field that contains extra user information |
+| `/home/vmuser` | absolute path to user home directory |
+| `/bin/bash` | absolute path to user command or shell |
+
+
 ```
 name: unique <user> name
 x: password stored in /etc/shadow indicator
@@ -27,6 +37,9 @@ description: comment field that contains extra user information
 100 - 999 - reserved by system for system administrative and account groups
 1000+ system users ID
 
+
+to do:
+create new `test` user
 
 
 
