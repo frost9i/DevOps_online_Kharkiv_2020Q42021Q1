@@ -155,7 +155,7 @@ Command `chown` can be used for changing an owner or/and a group.
 *UID and GID can be used to reference the user and group.*  
   
 `chown :<group2> <dir>` is basically equal to `chgrp <group2> <dir>`  
-  
+***
   
 ### Access rights: symbolic/octal representation
 Command `chmod` to change file mode bits can be used either with symbolic representation or with an octal number to set the bit pattern of a file or directory.  
@@ -175,7 +175,7 @@ and all of the combinations making the sum, e.g.:
   
 #### `umask` command  
 Command is used for removing access rights. For example `umask 022` removes write permissions from group and others, leaving owner rights unchanged. Can't be used to remove sticky bits.  
-  
+***
   
 ### Sticky bits: SUID, GUID  
 Sticky bit (when set) is represented as `t` in third triplet of directory access rights instead of `x` and prevents the deletion of a folder and its content bu other users that have `w` permission.  
@@ -188,7 +188,7 @@ If by checking with `ls -l` sticky bit in the first triplet is capital `S` the f
   
 To set GUID sticky bit user:  
 `chmod 2755` or `chmod g+s` which will make all new files created in the directory by any user belong to the group that directory belongs to.  
-  
+***
   
 ### Command script  
 BASH Script is a scripting programming language and is used to perform multiple operations according to different conditions in a linux CLI environment.  
